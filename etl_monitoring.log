@@ -1,0 +1,54 @@
+2025-02-12 22:44:04,086 - INFO - Starting ETL Pipeline...
+2025-02-12 22:44:04,145 - INFO - Extracting data from MySQL...
+2025-02-12 22:44:05,369 - INFO - Extracted 3 rows successfully.
+2025-02-12 22:44:10,450 - INFO - Transforming data...
+2025-02-12 22:44:10,522 - INFO - Missing values before cleaning: Passenger_id    0
+First_name      0
+Last_name       0
+Gender          0
+Age             0
+Nationality     0
+dtype: int64, Flight_id          0
+Passenger_id       0
+Airport_id         0
+Departure_date     0
+Arrival_airport    0
+Pilot_name         0
+Flight_status      0
+dtype: int64, Airport_id              0
+Airport_name            0
+Airport_country_code    0
+Country_name            0
+Airport_continent       0
+Continents              0
+dtype: int64
+2025-02-12 22:44:10,523 - INFO - Missing values checked successfully.
+2025-02-12 22:44:11,005 - INFO - Loading transformed data into MySQL...
+2025-02-12 22:44:11,006 - INFO - Data successfully loaded into MySQL.
+2025-02-12 23:02:51,750 - INFO - Starting ETL Pipeline...
+2025-02-12 23:02:51,792 - INFO - Extracting data from MySQL...
+2025-02-12 23:02:53,234 - INFO - Extracted 3 rows successfully.
+2025-02-12 23:02:59,176 - INFO - Transforming data...
+2025-02-12 23:02:59,263 - INFO - Missing values before cleaning: Passenger_id    0
+First_name      0
+Last_name       0
+Gender          0
+Age             0
+Nationality     0
+dtype: int64, Flight_id          0
+Passenger_id       0
+Airport_id         0
+Departure_date     0
+Arrival_airport    0
+Pilot_name         0
+Flight_status      0
+dtype: int64, Airport_id              0
+Airport_name            0
+Airport_country_code    0
+Country_name            0
+Airport_continent       0
+Continents              0
+dtype: int64
+2025-02-12 23:02:59,264 - INFO - Missing values checked successfully.
+2025-02-12 23:02:59,737 - INFO - Loading transformed data into MySQL...
+2025-02-12 23:02:59,737 - INFO - Data successfully loaded into MySQL.

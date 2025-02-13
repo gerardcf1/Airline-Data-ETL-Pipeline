@@ -1,0 +1,14 @@
+# Ignore sensitive files
+Final Project Queries.ipynb
+Final Project Queries.pdf
+final project.docx
+DigiCertGlobalRootCA.crt
+DigiCertSHA2SecureServer.crt
+Diagrams.mwb
+BaltimoreCyberTrustRoot.crt.pem
+archive.zip
+Airline_Dataset_Cleaned.csv
+airline_database.sql
+Airline Dataset.csv
+Query 1.sql
+
