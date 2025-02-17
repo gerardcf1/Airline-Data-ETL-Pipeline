@@ -1,0 +1,19 @@
+First query: Find the most popular destination by number of flights
+SELECT arrival_airport, COUNT(*) AS num_flights
+FROM flights
+GROUP BY arrival_airport
+ORDER BY num_flights DESC
+LIMIT 5;
+
+Second query: Number of Passengers by Age group
+SELECT 
+    CASE 
+        WHEN age BETWEEN 0 AND 12 THEN 'Child'
+        WHEN age BETWEEN 13 AND 19 THEN 'Teen'
+        WHEN age BETWEEN 20 AND 64 THEN 'Adult'
+        ELSE 'Senior'
+    END AS age_group,
+    COUNT(*) AS num_passengers
+FROM passengers
+GROUP BY age_group
+ORDER BY num_passengers DESC;
