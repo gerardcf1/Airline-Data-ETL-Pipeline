@@ -88,6 +88,7 @@ Make sure you have:
  ┣  etl_monitoring.log             # Log file tracking ETL execution
  ┗  design_document.pdf            # Final project design document (coming soon)
 ---
+```
 
 ## Contact
 If you have any questions, feel free to reach out!  
