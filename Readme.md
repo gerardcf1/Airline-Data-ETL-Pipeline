@@ -87,13 +87,6 @@ Make sure you have:
  ┣  README.md                      # Project documentation
  ┣  etl_monitoring.log             # Log file tracking ETL execution
  ┗  design_document.pdf            # Final project design document (coming soon)
-```
-
-##  Next Steps
--  Complete Tableau dashboard and share the **public link**.
--  Automate the ETL pipeline with **scheduled execution**.
--  Expand analytics by integrating **real-time flight data**.
-
 ---
 
 ## Contact
